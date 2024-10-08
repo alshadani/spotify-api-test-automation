@@ -13,19 +13,32 @@ This project automates testing of key Spotify API functionalities such as fetchi
 
 ## Setup
 
-1. Clone this repository.
-2. Install the dependencies:
+## Setup
+
+1. Create a `.env` file in the root of your project:
+
+    ```bash
+    touch .env
+    ```
+
+2. Add your Spotify credentials to the `.env` file:
+
+    ```plaintext
+    SPOTIFY_CLIENT_ID=your_client_id
+    SPOTIFY_CLIENT_SECRET=your_client_secret
+    SPOTIFY_ACCESS_TOKEN=your_access_token
+    ```
+
+3. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Obtain an access token from Spotify API and add it to your environment.
-
-4. Run the automated tests:
+4. Run the project:
 
     ```bash
-    pytest test_spotify.py
+    pytest tests/
     ```
 
 ## License
