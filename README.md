@@ -8,7 +8,7 @@ This project automates testing of key Spotify API functionalities such as fetchi
 - Validate Spotify API authentication using OAuth.
 
 ## Requirements
-- Python 3.x
+- Python 3.11
 - `requests` library
 
 ## Setup
